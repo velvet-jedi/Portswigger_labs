@@ -1,6 +1,12 @@
 <input type="text" name="username">
 <input type="text" name="password" onchange="hax()">
 
+/* the website does autofilling of the password so we added a username, password form
+which will autocapture the creds only onchange means ,when the sitedecides that
+instead of a null value for password, it has loaded some value which in our case will be the 
+password required and then run the hax() function.
+*/
+
 <script>
 
     function hax(){
