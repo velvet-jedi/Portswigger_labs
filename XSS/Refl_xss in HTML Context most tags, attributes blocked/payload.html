@@ -1,0 +1,15 @@
+
+/* Your solution must not require any user interaction
+we found using intruder that body tag and onresize are not blocked
+
+but the user resizes is not gonna solve the lab since NO USER INTERACTION is a condition
+so we used an available exploit server to host the webpage inside an iframe tag
+with onload attribute and width attribute inline css.
+
+
+<iframe src="https://0a9c00fe0460d30d84fdf9ea00520014.web-security-academy.net/?search=%3Cbody+onresize%3D%22print%28%29%22%3E" onload=this.style.width="100px"></iframe> 
+
+
+/deliver exploit to victim/
+
+
