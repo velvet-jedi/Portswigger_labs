@@ -1,0 +1,17 @@
+/*To look for stored XSS we need to check entry exit points for our inputs
+and to submit the sample input we enter the following:
+Comment: Hello
+Name: Victim
+Email: dfdf@gmail.com
+website:http://cream.wutang.com 
+
+after submission of the comment we get back to the post to check our comments 
+viewing source reveals that our website input is being injected into an a tag href
+
+thatsit 
+
+the entry point for a valid XSS is the website field, we enter the following payload
+in the website input field to solve the lab
+*/
+
+javascript:alert('XSS') 
