@@ -1,0 +1,13 @@
+/* 
+I tried manipulating the source using inspector in canonical link and got XSS alert but didnt solve the lab
+accesskey="X" onclick="alert(1)"
+
+the academy page mentions the HIDDEN inputs
+concatenating a random string in the URL of the lab 
+watching the source reveals that the string indeed gets added to the canonical URL 
+in the href so we need to escape the href
+
+/?'accesskey="x"onclick='alert(1)
+/?'accesskey='x'onclick='alert(1)               this worked
+*/
+
