@@ -1,0 +1,7 @@
+/*
+
+so simple I couldnt...
+
+just update email after successful registration
+
+*/
