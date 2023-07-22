@@ -22,6 +22,7 @@
 6) GET /?productId=2&storeId=1
 The stock check function is being loaded from a subdomain
 stock.0aa4003e0413e44e8659499900d400f6.web-security-academy.net
+//Target tab reveals that the stock check URL is using HTTP not HTTPS
 
 7) productId parameter is vulnerable to XSS in the subdomain
 
