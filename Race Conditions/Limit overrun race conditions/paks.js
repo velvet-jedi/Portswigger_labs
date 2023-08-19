@@ -10,5 +10,8 @@
 
 5) Send group in parallel
 
+6) Place order
+
+
 
 */
