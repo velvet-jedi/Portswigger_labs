@@ -64,6 +64,8 @@ z-RPi252OlMoqMR46dzCo9xkCaGXJQ1kh5W3zn0jD6R
 h) send GET /me to repeater 
 Authorization: Bearer z-RPi252OlMoqMR46dzCo9xkCaGXJQ1kh5W3zn0jD6R
 
+//api key revealed
+
 */
 
 
