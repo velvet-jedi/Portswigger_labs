@@ -24,7 +24,7 @@ Host: 192.168.0.1
 POST /admin/delete HTTP/1.1
 Host: 192.168.0.1
 Cookie: session=sesscookie; _lab=labcookie
-Content-Type: application/x-www-form-urlencoded     // HTML post form content type
+Content-Type: x-www-form-urlencoded     // HTML post form content type
 
 csrf=Dpf5OB38qsRSS9LK5vVyNWkVGZsIBhv2&username=carlos
 
