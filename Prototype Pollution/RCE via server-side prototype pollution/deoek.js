@@ -58,5 +58,7 @@ c) Trigger remote execution of a command that deletes the file /home/carlos/mora
 }    
 
 
+//Within the execArgv array, there is a single element, which is a string.
+
 
 */
